@@ -1,0 +1,19 @@
+{
+	"id":"ojd-nintendo-gameboy",
+	"name":"Nintendo GAMEBOY",
+	"author":"KittyPBoxx",
+	"version":"2.0",
+	"copyright":"Copyright 2022 KittyPBoxx",
+	"license":"BSD 4-Clause Attribution",
+	"website":"https://ojdproject.com",
+	"styles":[
+		{"id":"gb", 			   "name":"GAMEBOY", 					   "file":"theme-gb.html", 		          "mastercss":"shell-theme.css"},
+		{"id":"streamer-gb",       "name":"GAMEBOY (Streamer)",            "file":"theme-gb-streamer.html", 	  "mastercss":"streamer-theme.css"},
+		{"id":"gb-clr", 	       "name":"GAMEBOY COLOR", 			       "file":"theme-gb-clr.html", 	          "mastercss":"shell-theme.css"},
+		{"id":"streamer-gb-clr",   "name":"GAMEBOY COLOR (Streamer)",      "file":"theme-gb-clr-streamer.html",   "mastercss":"streamer-theme.css"},
+		{"id":"gba", 	           "name":"GAMEBOY ADVANCE", 	           "file":"theme-gba.html",               "mastercss":"shell-theme.css"},
+		{"id":"streamer-gba", 	   "name":"GAMEBOY ADVANCE (Streamer)",    "file":"theme-gba-streamer.html",      "mastercss":"streamer-theme.css"},
+		{"id":"gba-sp", 		   "name":"GAMEBOY ADVANCE SP", 	       "file":"theme-gba-sp.html",            "mastercss":"shell-theme.css"},
+		{"id":"streamer-gba-sp",   "name":"GAMEBOY ADVANCE SP (Streamer)", "file":"theme-gba-sp-streamer.html",   "mastercss":"streamer-theme.css"}
+	]
+}

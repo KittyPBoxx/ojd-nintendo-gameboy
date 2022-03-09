@@ -1,0 +1,61 @@
+/* STREAMER VARIABLES */
+.streamer{
+    --text-color:        #2c2c2c;
+    --line-color:        #726c72;
+    
+    --active-fill-color: #2c2c2c;
+    --active-line-color: #a82944;
+    --active-text-color: #726c72;
+}
+
+/* GAMEBOY VARIABLES */
+.gb {
+    --direction-arrows-visible: 0.5;
+}
+.gb.shell{
+    --text-color:        #2c2c2c;
+    --line-color:        #726c72;
+
+    --active-fill-color: #ccc459;
+    --active-line-color: #ccc459;
+    --active-text-color: #300d0f;
+}
+
+/* GAMEBOY COLOR VARIABLES */
+.gb-clr {
+    --direction-arrows-visible: 1;
+}
+.gb-clr.shell{
+    --text-color:        #2c2c2c;
+    --line-color:        #726c72;
+
+    --active-fill-color: #c9c76c;
+    --active-line-color: #c9c76c;
+    --active-text-color: #300d0f;
+}
+
+/* GAMEBOY ADVANCE VARIABLES */
+.gba {
+    --direction-arrows-visible: 1;
+}
+.gba.shell {
+    --text-color:        #2c2c2c;
+    --line-color:        #726c72;
+
+    --active-fill-color: #a8681f;
+    --active-line-color: #a8681f;
+    --active-text-color: #300d0f;
+}
+
+/* GAMEBOY ADVANCE SP VARIABLES */
+.gba-sp {
+    --direction-arrows-visible: 0;
+}
+.gba-sp.shell{
+    --text-color:        #2c2c2c;
+    --line-color:        #726c72;
+
+    --active-fill-color: #b6556a;
+    --active-line-color: #b6556a;
+    --active-text-color: #300d0f;
+}

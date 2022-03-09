@@ -1,0 +1,23 @@
+@import url('variables.css');
+
+.button{
+	stroke: var(--line-color) !important;
+}
+.active.button, .active .button {
+	fill: var(--active-fill-color) !important;
+	stroke: var(--active-line-color) !important;
+}
+.button.direction {
+	opacity: var(--direction-arrows-visible);
+}
+.active.button.direction, .active .button.direction {
+	opacity: 1;
+}
+.label {
+	fill: var(--text-color) !important;
+	stroke: var(--text-color) !important;
+}
+.active.label, .active .label {
+	fill: var(--active-text-color) !important;
+	stroke: var(--active-text-color) !important;
+}
